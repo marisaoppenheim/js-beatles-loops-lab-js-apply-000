@@ -19,4 +19,7 @@ function johnLennonFacts(facts) {
     var fact = facts[i] +'!!!'
     answer.push(fact);
   }
+  i++;
+  
+  return answer;
 }
