@@ -13,13 +13,13 @@ function theBeatlesPlay (musicians, instruments) {
 
 function johnLennonFacts(facts) {
   var answer = [];
-  for var i = 0;
+  var i = 0;
 
   while (i < facts.length) {
     var fact = facts[i] +'!!!'
     answer.push(fact);
   }
   i++;
-  
+
   return answer;
 }
